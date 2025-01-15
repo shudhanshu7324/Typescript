@@ -1,13 +1,13 @@
-var a = 1;
-var b = 2;
-function calculateSum(a, b) {
-    return a + b;
-}
-var ans = calculateSum(a, b);
-console.log(ans);
-function getTotal(numbers) {
-    return numbers.reduce(function (acc, num) { return acc + num; }, 0);
-}
-var numbers = [1, 2, 3, 4, 5];
-var total = getTotal(numbers);
-console.log(total);
+// const a:number = 1;
+// const b:number = 2;
+var p1 = {
+    name: 'John',
+    age: 25
+};
+var p2 = {
+    name: 'Jane',
+    age: 22,
+    address: 'New York'
+};
+console.log(p1.name);
+console.log(p1 === null || p1 === void 0 ? void 0 : p1.address);
