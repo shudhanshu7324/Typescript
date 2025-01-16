@@ -174,3 +174,5 @@ console.log(user.address)
 // printId("10")
 
 
+// Narrowing
+// narrowing is a process of reducing the range of possible values of a variable. It is done by checking the type of the variable and then performing the operation based on the type of the variable.
